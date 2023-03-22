@@ -1,0 +1,4 @@
+- button hover on "Add";
+- make it simpler;
+- DRY;
+- responsiveness;

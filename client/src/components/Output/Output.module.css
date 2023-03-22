@@ -1,0 +1,42 @@
+.input_block {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+
+.buttons_block {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+
+.block_caption {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.showInput {
+  width: 35vw;
+  height: 25vh;
+  border: none;
+  border-radius: 27px;
+  background: #FFF;
+  box-shadow:  28px 28px 56px #6e6e6e,
+              -28px -28px 56px #FFF;
+}
+
+.btn {
+  width: 10vw;
+  height: 5vh;
+  cursor: pointer;
+  font-size: .8rem;
+  font-weight: 700;
+  border: .5px solid #000;
+  border-radius: 10px;
+  background-color: #FFF;
+  transition: transform .3s;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+}
